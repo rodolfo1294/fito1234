@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html> 
+<body> 
+
+<h2>JavaScript Loops</h2>  
+
+<p>Un bucle con una instruccion <b>continua</b></p> 
+
+<p>Un bucle que omitirá el paso donde i=3</p> 
+
+<p id="demo"></p>   
+
+<script>
+var text = "";  
+var i;  
+for (i = 0; i < 10; i++) {  
+  if (i === 3) { continue; } 
+  text += "El numero es " + i + "<br>"; 
+}
+document.getElementById("demo").innerHTML = text;
+</script>  
+
+</body>
+</html>
